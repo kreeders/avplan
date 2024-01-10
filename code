@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Aggregator</title>
+    <style>
+        /* Add your custom styles here */
+        .iframe-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .iframe-window {
+            border: 1px solid #ccc;
+            width: 300px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Webpage Aggregator</h1>
+
+    <div class="iframe-container">
+        <!-- Example iframes, replace the src attributes with your desired URLs -->
+        <iframe class="iframe-window" src="https://www.windy.com/?51.087,-115.350,5"></iframe>
+        <iframe class="iframe-window" src="https://spotwx.com/"></iframe>
+        <iframe class="iframe-window" src="https://avalanche.ca/map?lat=51.399826&lng=-115.985734/"></iframe>
+        <!-- Add more iframes as needed -->
+    </div>
+</body>
+</html>
